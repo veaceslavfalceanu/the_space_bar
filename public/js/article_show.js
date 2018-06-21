@@ -13,7 +13,5 @@ $(document).ready(function () {
        }).done(function (data) {
            $('.js-like-article-count').html(data.hearts);
        });
-
-
     });
 });
